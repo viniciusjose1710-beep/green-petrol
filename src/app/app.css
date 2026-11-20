@@ -26,3 +26,40 @@
 .menu a:hover {
   color: #7bd69b;
 }
+
+.banner {
+  background-color: #174b38;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.banner-conteudo {
+  max-width: 800px;
+  margin: auto;
+}
+
+.banner h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #8bd49e;
+  color: #123c2d;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #b0e6bd;
+}
