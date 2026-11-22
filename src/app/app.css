@@ -56,101 +56,7 @@
   background-color: #b0e6bd;
 }
 
-.sobre {
-  padding: 60px 40px;
-  text-align: center;
-  background-color: #f4f7f4;
-}
 
-.sobre h2 {
-  font-size: 32px;
-  color: #174b38;
-  margin-bottom: 15px;
-}
-
-.sobre-texto {
-  color: #555;
-  font-size: 17px;
-  margin-bottom: 40px;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background-color: white;
-  width: 280px;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: 0.3s;
-}
-
-.card h3 {
-  color: #246b48;
-  margin-bottom: 15px;
-}
-
-.card p {
-  color: #555;
-  line-height: 1.6;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.projetos {
-  padding: 60px 40px;
-  text-align: center;
-  background-color: white;
-}
-
-.projetos h2 {
-  color: #174b38;
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-
-.projetos-texto {
-  color: #555;
-  margin-bottom: 35px;
-  font-size: 17px;
-}
-
-.lista-projetos {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  flex-wrap: wrap;
-}
-
-.projeto {
-  background-color: #f4f7f4;
-  width: 280px;
-  padding: 25px;
-  border-radius: 10px;
-  border-left: 5px solid #246b48;
-  transition: 0.3s;
-}
-
-.projeto h3 {
-  color: #246b48;
-  margin-bottom: 15px;
-}
-
-.projeto p {
-  color: #555;
-  line-height: 1.6;
-}
-
-.projeto:hover {
-  transform: translateY(-5px);
-}
 
 .contato {
   padding: 60px 20px;
@@ -173,12 +79,6 @@
   margin-top: 25px;
 }
 
-.rodape {
-  background-color: #123c2d;
-  color: white;
-  text-align: center;
-  padding: 25px;
-}
 
 /* Ajustes para telas menores */
 @media (max-width: 768px) {

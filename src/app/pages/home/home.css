@@ -1,0 +1,14 @@
+.banner {
+  background-color: #174b38;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+.banner a {
+    text-decoration: none;
+    color: white;
+}
+.banner a:hover {
+    color: #8be0a1;
+    transition: 0.3s;
+}
