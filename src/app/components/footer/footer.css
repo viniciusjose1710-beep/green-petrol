@@ -4,3 +4,10 @@
   text-align: center;
   padding: 25px;
 }
+
+@media (max-width: 600px) {
+  .rodape {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+}

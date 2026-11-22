@@ -1,0 +1,40 @@
+
+.contato {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f4f7f4;
+}
+
+.contato h2 {
+  color: #174b38;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contato p {
+  color: #555;
+  font-size: 17px;
+}
+
+.contato-info {
+  margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+  .contato {
+    padding: 40px 15px;
+  }
+
+  .contato h2 {
+    font-size: 26px;
+  }
+
+  .contato p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .contato-info {
+    margin-top: 20px;
+  }
+}

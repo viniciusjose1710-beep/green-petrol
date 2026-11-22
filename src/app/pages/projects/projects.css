@@ -45,3 +45,45 @@
 .projeto:hover {
   transform: translateY(-5px);
 }
+
+@media (max-width: 600px) {
+  .projetos {
+    padding: 40px 15px;
+  }
+
+  .projetos h2 {
+    font-size: 26px;
+  }
+
+  .projetos-texto {
+    font-size: 15px;
+  }
+
+  .lista-projetos {
+    gap: 20px;
+  }
+
+  .projeto {
+    width: 100%;
+    max-width: 330px;
+  }
+}
+
+.dados-climaticos {
+  background-color: #f4f7f4;
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  border-left: 5px solid #246b48;
+}
+
+.dados-climaticos h3 {
+  color: #174b38;
+  margin-bottom: 15px;
+}
+
+.dados-climaticos p {
+  color: #555;
+  margin: 10px 0;
+}

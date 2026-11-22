@@ -4,6 +4,25 @@
   <p class="projetos-texto">
     Conheça algumas iniciativas voltadas para o setor energético.
   </p>
+  <div class="dados-climaticos">
+  <h3>Condições ambientais em São Paulo</h3>
+  
+  <p class="descricao-clima">
+  Dados meteorológicos que ajudam a compreender
+  as condições ambientais e sua relação com
+  o aproveitamento de energias renováveis.
+</p>
+
+  @if (carregando) {
+    <p>Carregando informações...</p>
+  } @else if (erro) {
+    <p>Não foi possível carregar os dados.</p>
+  } @else {
+    <p>Temperatura: {{ temperatura }} °C</p>
+    <p>Velocidade do vento: {{ vento }} km/h</p>
+    <p>Nebulosidade: {{ nebulosidade }}%</p>
+  }
+</div>
 
   <div class="lista-projetos">
 

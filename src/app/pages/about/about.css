@@ -45,3 +45,27 @@
 .card:hover {
   transform: translateY(-5px);
 }
+
+@media (max-width: 600px) {
+  .sobre {
+    padding: 40px 15px;
+  }
+
+  .sobre h2 {
+    font-size: 26px;
+  }
+
+  .sobre-texto {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .cards {
+    gap: 20px;
+  }
+
+  .cards app-card {
+    width: 100%;
+    max-width: 330px;
+  }
+}
