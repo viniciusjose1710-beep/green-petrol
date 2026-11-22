@@ -1,0 +1,17 @@
+.cabecalho {
+  background-color: #123c2f;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.menu a:hover {
+    color: #8be0a1;
+    transition: 0.3s;
+}
