@@ -1,0 +1,75 @@
+.projetos-sociais {
+  padding: 60px 40px;
+  background-color: #f4f7f4;
+  text-align: center;
+  min-height: 500px;
+}
+
+.projetos-sociais h2 {
+  color: #174b38;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.introducao {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 0 auto 40px;
+}
+
+.lista-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.social {
+  background-color: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 5px solid #246b48;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.social:hover {
+  transform: translateY(-5px);
+}
+
+.social h3 {
+  color: #246b48;
+  margin-bottom: 15px;
+}
+
+.social p {
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .projetos-sociais {
+    padding: 40px 15px;
+  }
+
+  .projetos-sociais h2 {
+    font-size: 26px;
+  }
+
+  .introducao {
+    font-size: 15px;
+  }
+
+  .social {
+    width: 100%;
+    max-width: 330px;
+  }
+}
+app-info-box {
+  display: block;
+  max-width: 800px;
+  margin: 30px auto;
+}

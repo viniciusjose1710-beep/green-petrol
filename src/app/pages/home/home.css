@@ -2,7 +2,7 @@
  background: linear-gradient(
   rgba(10, 40, 25, 0.55),
   rgba(10, 40, 25, 0.55)
-), url('https://www.cgi.com/sites/default/files/renewable-energy-farm-solar-panels-multiple-wind-turbines-900070446.jpg');
+), url('https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin_91bed9dc-c1ec-42fd-a2bb-2decaf7b5ff1.jpg');
 
 background-size: cover;
 background-position: center;
@@ -15,6 +15,34 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.banner h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.banner p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 4px #000;
+}
+.banner .botao {
+  display: inline-block;
+  background-color: #32a852;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.banner .botao:hover {
+  background-color: #246b48;
+  color: white;
+  transform: scale(1.05);
+}
+
 .banner a {
     text-decoration: none;
     color: white;
@@ -40,5 +68,167 @@ justify-content: center;
   .banner .botao {
     display: inline-block;
     margin-top: 15px;
+  }
+}
+.destaques {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  background-color: #f4f7f4;
+}
+
+.destaque {
+  background-color: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.destaque h3 {
+  color: #246b48;
+  margin-bottom: 15px;
+}
+
+.destaque p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.destaque:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 600px) {
+  .destaques {
+    padding: 40px 15px;
+    gap: 20px;
+  }
+
+  .destaque {
+    width: 100%;
+    max-width: 330px;
+  }
+}
+
+.feed {
+  padding: 60px 40px;
+  background-color: #f4f7f4;
+  text-align: center;
+}
+
+.feed h2 {
+  color: #174b38;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.feed-texto {
+  color: #555;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+
+.lista-posts {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.post {
+  background-color: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #246b48;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.post h3 {
+  color: #174b38;
+  margin-bottom: 15px;
+}
+
+.post p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.post a {
+  color: #246b48;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.post a:hover {
+  color: #32a852;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .feed {
+    padding: 40px 15px;
+  }
+
+  .feed h2 {
+    font-size: 26px;
+  }
+
+  .feed-texto {
+    font-size: 15px;
+  }
+
+  .lista-posts {
+    gap: 20px;
+  }
+
+  .post {
+    width: 100%;
+    max-width: 330px;
+  }
+}
+.sobre-empresa {
+  background-color: #f4f7f4;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.sobre-empresa h2 {
+  color: #174b38;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.sobre-empresa p {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .sobre-empresa {
+    padding: 40px 20px;
+  }
+
+  .sobre-empresa h2 {
+    font-size: 26px;
+  }
+
+  .sobre-empresa p {
+    font-size: 15px;
   }
 }
