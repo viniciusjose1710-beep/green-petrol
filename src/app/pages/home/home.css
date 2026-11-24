@@ -1,8 +1,19 @@
 .banner {
-  background-color: #174b38;
+ background: linear-gradient(
+  rgba(10, 40, 25, 0.55),
+  rgba(10, 40, 25, 0.55)
+), url('https://www.cgi.com/sites/default/files/renewable-energy-farm-solar-panels-multiple-wind-turbines-900070446.jpg');
+
+background-size: cover;
+background-position: center;
   color: white;
   padding: 80px 40px;
   text-align: center;
+
+  min-height: 380px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .banner a {
     text-decoration: none;
